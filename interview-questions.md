@@ -12,7 +12,7 @@ Answer the following questions. First, without external resources. Challenge you
 
 2. What is the difference between map and filter?
 
-  Your answer:
+  Your answer: i know filter acts as a conditional statement
 
   Researched answer:
 
