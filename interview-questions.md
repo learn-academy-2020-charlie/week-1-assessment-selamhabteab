@@ -30,7 +30,7 @@ Answer the following questions. First, without external resources. Challenge you
 
 4. What is the difference between console.log() and return?
 
-  Your answer: console.log() is for front-end code that'll render on the console. Return is back-end code that calls the desired outcome. You'll find return in functions.
+  Your answer: console.log() is for front-end code that'll render on the console. Return is back-end code that calls the desired outcome. You'll find return in functions.There can only be one return that runs in a function where as the console log can have many.
 
   Researched answer: "console.log is a function that logs the arguments you pass to the web console. return is a statement which specifies the value returned from a function."
 
@@ -38,7 +38,8 @@ Answer the following questions. First, without external resources. Challenge you
 
 5. In regards to functions, what is an argument?
 
-  Your answer: An argument is a statement that is being tested out.
+  Your answer: An argument is a statement that is being tested inside of the function.
+  "Outside information that the function needs in order toproperly." - Rachael
 
   Researched answer: "An argument of a function is a value that must be provided to obtain the function's result."
 

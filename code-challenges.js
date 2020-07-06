@@ -16,7 +16,7 @@ const boilingPt = (temp) => {
   else if (temp > 212){
     return `${temp2} degrees Farhenheit is above boiling point.`
   }
-  else if (temp = 212) {
+  else if (temp === 212) {
     return `${temp3} degrees Farhenheit is at boiling point.`
   }
   else {
@@ -67,24 +67,56 @@ var stringWithVowels1 = "HeyThereLearnStudent"
 var stringWithVowels2 = "ILoveJavaScript"
 
 
+//------INCOMPLETE------
 //Create a function to process a string for vowel removal
 const vowelsRemoved = (string) => {
 //Must create a variable to house new array for the string.
 //Turn string into an array
 //use filter to draw vowels out using conditional statements in filter)
-  let consonants = string.filter (value => {
-    return value %2 !==0
+  let consonants = string.__ (value => {
+    return value
   })
 //Return new filtered array
-  return oddNums
+  return  __
 }
 console.log(newArray(arr2))
 
-
+//Trip's ANSWER during class review:
+const vowelsRemoved = (string) => {
+  let vowelArrray = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
+  let charArr=string.split("")
+  let noVowelArray = charArr.filter((value, index) => {
+    let isValue = true
+    return isValue !== vowelArray.includes (charArr[index])
+  })
+    return value %2 !==0
+  })
+  let noVowels = noVowelArray.join("")
+  return noVowelsString
+}
+  console.log(noVowelsPlease(stringWithVowels1));
+  console.log(noVowelsPlease(stringWithVowels2));
 //----------------------------------------------------------------------------
-// ((6)) Expand the logic from #5 to inform your user if the variable passed into the vowel removal function is not a string.
+// ((6)) Expand the logic from #4 to inform your user if the variable passed into the vowel removal function is not a string.
 // Copy and paste or rewrite the function. Use the test variables provided below.
 
 var stringWithVowels3 = true
 var stringWithVowels4 = 42
 var stringWithVowels5 = "CodingIsGreat"
+
+//MIGUEL'S ANSWER DURING CLASS
+
+var coffeeRun = ["Vanilla latte", "Chai tea", "Black coffee", "Mocha", "Americano", "Double espresso"]
+//Declare a function entitled oddIndexExtract for the project
+//Return with a .filter-method using both value and index arguments. Remember that higher order functions can house up to 3 built-in arguments (value, index, array)
+const oddIndexExtract = (oldArray) => {
+  return oldArray.filter((value, index)=> {
+    if (typeOf oldArray[i]==="string"){
+      return index %2 !== 0
+    } else {
+      return...
+    }
+
+  })
+}
+console.log(oddIndexExtract(coffeeRun));
